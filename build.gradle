@@ -1,0 +1,42 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+
+group 'com.sample'
+version '1.0-SNAPSHOT'
+
+//sourceCompatibilty = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+        
+    }
+    repositories {
+        maven {
+            name = "SimpleAditionLibrary"
+            url = "https://github.com/paramdveer/SimpleAdditionLibrary.git"
+            credentials {
+                username = "param.8965@gmail.com"
+                password = "123@Hash"
+            }
+        }
+    }
+
+}

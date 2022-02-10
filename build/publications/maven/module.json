@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sample",
+    "module": "SimpleAdditionLibrary",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "jpxlph7275c5jp637d4iofjfq4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "SimpleAdditionLibrary-1.0-SNAPSHOT.jar",
+          "url": "SimpleAdditionLibrary-1.0-SNAPSHOT.jar",
+          "size": 1826,
+          "sha512": "9decf617a7c3c2cbdcbad2e30358a414dd96ce8223133037cd4e3ed222a44918877b6a3794013925563527307125f7655d627f767ec05e71a2ec4de0a267d1ce",
+          "sha256": "0006a1e8174f787b50aaec8bf4e57037964673346f674c5984029bd39c04de90",
+          "sha1": "ba4e685cb2e53d6b235e873e0d8994d11d6c668b",
+          "md5": "eada79a9c900d554769a1f79f6b80cd5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "SimpleAdditionLibrary-1.0-SNAPSHOT.jar",
+          "url": "SimpleAdditionLibrary-1.0-SNAPSHOT.jar",
+          "size": 1826,
+          "sha512": "9decf617a7c3c2cbdcbad2e30358a414dd96ce8223133037cd4e3ed222a44918877b6a3794013925563527307125f7655d627f767ec05e71a2ec4de0a267d1ce",
+          "sha256": "0006a1e8174f787b50aaec8bf4e57037964673346f674c5984029bd39c04de90",
+          "sha1": "ba4e685cb2e53d6b235e873e0d8994d11d6c668b",
+          "md5": "eada79a9c900d554769a1f79f6b80cd5"
+        }
+      ]
+    }
+  ]
+}
