@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class MaxSubStringFinder {
 
-    public static String getNoDuplicateMaximumSubString(String input){
+    public  String getNoDuplicateMaximumSubString(String input){
         Set<Character> seenChars = new HashSet<>();
         int lastNonRepCharIdx = 0;
         String maxSubString = "";
