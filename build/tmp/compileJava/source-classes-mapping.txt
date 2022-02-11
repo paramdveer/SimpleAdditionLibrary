@@ -4,3 +4,5 @@ com/sample/StringAddition.java
  com.sample.StringAddition
 com/sample/Addition.java
  com.sample.Addition
+com/sample/NumberPrint.java
+ com.sample.NumberPrint

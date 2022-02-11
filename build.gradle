@@ -30,7 +30,7 @@ publishing {
     }
     repositories {
         maven {
-            name = "SimpleAditionLibrary"
+            name = "SimpleAdditionLibrary"
             url = "https://github.com/paramdveer/SimpleAdditionLibrary.git"
             credentials {
                 username = "param.8965@gmail.com"
